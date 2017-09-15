@@ -1,0 +1,18 @@
+{
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["http://*/*"]
+    }
+  ],
+  "icons": {
+    "96": "insecure.svg"
+  },
+  "permissions": [
+    "http://*/*"
+  ],
+  "description": "An experiment for padlocks.",
+  "manifest_version": 2,
+  "name": "Snap HTTP Padlocks",
+  "version": "1.0"
+}
