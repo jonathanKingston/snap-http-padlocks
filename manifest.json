@@ -11,8 +11,8 @@
   "permissions": [
     "http://*/*"
   ],
-  "description": "An experiment for padlocks.",
+  "description": "A user study for padlocks.",
   "manifest_version": 2,
   "name": "Snap HTTP Padlocks",
-  "version": "1.0"
+  "version": "1.0.1"
 }
