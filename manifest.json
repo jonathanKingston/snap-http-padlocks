@@ -2,7 +2,8 @@
   "content_scripts": [
     {
       "js": ["script.js"],
-      "matches": ["http://*/*"]
+      "matches": ["http://*/*"],
+      "run_at": "document_start"
     }
   ],
   "icons": {
@@ -14,5 +15,5 @@
   "description": "A user study for padlocks.",
   "manifest_version": 2,
   "name": "Snap HTTP Padlocks",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
